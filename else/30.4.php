@@ -5,6 +5,6 @@
 	if ($test1 === $test2) {
 		echo '+';
 	} else {
-		echo '-';
+		echo '-'; // сработает это
 	}
 ?>
