@@ -5,6 +5,6 @@
 	if ($num1 >= 0 or $num2 >= 0) {
 		echo '+';
 	} else {
-		echo '-';
+		echo '-'; // сработает это
 	}
 ?>
