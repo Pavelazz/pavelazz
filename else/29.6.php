@@ -1,5 +1,5 @@
 <?php
-	$test = 0; 
+	$test = 10; 
 	
 	if ($test != 10) {
 		echo '+';
