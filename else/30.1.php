@@ -3,7 +3,7 @@
 	$test2 = '3';
 		
 	if ($test1 == $test2) {
-		echo '+';
+		echo '+'; // сработает это
 	} else {
 		echo '-';
 	}
