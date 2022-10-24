@@ -1,8 +1,8 @@
 <?php
-	$test = 10;
+	$test = 0;
 	
-	if ($test >= 0) {
-		echo '+'; // сработает это
+	if ($test > 10) {
+		echo '+'; 
 	} else {
 		echo '-';
 	}
