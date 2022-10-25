@@ -1,7 +1,7 @@
 <?php
 	$test = true;
 	
-	if ($test != false) {
+	if (!$test) {
 		echo '+';
 	} else {
 		echo '-';
