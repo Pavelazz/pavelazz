@@ -4,6 +4,6 @@
 	if ($test) {
 		echo '+';
 	} else {
-		echo '-';
+		echo '-'; // сработает это
 	}
 ?>
