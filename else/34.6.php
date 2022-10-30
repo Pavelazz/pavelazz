@@ -1,6 +1,6 @@
 <?php
 	if (!isset($test)) {
-		echo '+';
+		echo '+'; // сработает это
 	} else {
 		echo '-';
 	}
