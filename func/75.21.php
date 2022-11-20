@@ -1,7 +1,7 @@
 <?php
 
     $str = 'abc abc abc';
-    echo strpos('abc abc abc', 'b');
+    echo strpos($str, 'b');
 
 
 ?>
