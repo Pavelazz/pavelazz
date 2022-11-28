@@ -1,11 +1,17 @@
 <?php
-	$arr = [[1, 2], [3, 4], [5, 6], [7, 8]];
-	
-	for ($i = 0, $k = 1; $i < 3; $i++) {
-		for ($j = 0; $j < 3; $j++) {
-			$arr[$i][$j] = $k++;
+	$arr = [
+		'group1'  => ['user11', 'user12', 
+			'user13', 'user43'], 
+		'group2'  => ['user21', 'user22', 'user23'],
+		'group3'  => ['user31', 'user32', 'user33'],
+		'group4'  => ['user41', 'user42', 'user43'],
+		'group5'  => ['user51', 'user52'],
+	];
+
+    foreach ($arr as $key1 => $sub) {
+		foreach ($sub as $key2 => $elem) {
+			echo $key1 . ' ' . $key2 . 
+				' ' . $elem . '<br>'; 
 		}
 	}
-	
-	var_dump($arr);
 ?>

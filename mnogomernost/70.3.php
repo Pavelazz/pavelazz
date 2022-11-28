@@ -1,27 +1,26 @@
 <?php
-	$arr =  [
-        [
-            [1, 2, 3, 4, 5],
-            [1, 2, 3, 4, 5],
-        ],
-        [
-            [1, 2, 3, 4, 5],
-            [1, 2, 3, 4, 5],
-        ],
-        [
-            [1, 2, 3, 4, 5],
-            [1, 2, 3, 4, 5],
-        ],
-    ];
+	$arr = [
+		[
+			'name'   => 'user1',
+			'age'    => 30,
+			'salary' => 1000,
+		],
+		[
+			'name'   => 'user2',
+			'age'    => 31,
+			'salary' => 2000,
+		],
+		[
+			'name'   => 'user3',
+			'age'    => 32,
+			'salary' => 3000,
+		],
+	];
 
-	for ($i = 0; $i < 3; $i++) {
-		for ($j = 0; $j < 3; $j++) {
-				for($h = 0; $h < 3; $h++) {
-                    $arr[$i][$j][$h] = $h + 1;  
-                }
+    foreach ($arr as $key1 => $sub) {
+		foreach ($sub as $key2 => $elem) {
+			echo $key1 . ' ' . $key2 . 
+				' ' . $elem . '<br>'; 
 		}
 	}
-
-	var_dump($arr);
-
 ?>
